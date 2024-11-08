@@ -1,0 +1,74 @@
+#title {
+text-align: center;
+color:black;
+font: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: xx-large;
+}
+body {
+    background-color: #E3E86F;
+}
+#h2 {
+    font-family: cursive;
+    text-align: center;
+    
+}
+#input {
+background-color: #E1B419;
+
+}
+#boxlabel{
+    font-size: large;
+    font-family: serif;
+}
+#debug{
+    text-align: center;
+    font-size: large;
+    font-family: serif;
+    color: black;
+    animation-name: amazing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: x-large;
+    transition: rotate 1.33s ease 0.1s;
+    width: 88px;
+    margin: auto;
+    margin-top: 100px;
+}
+@keyframes amazing{
+0% {color: red;}
+33% {color: #dd03ff;}
+66% {color: #dd03ff;}
+100% {color: red;}
+}
+@keyframes listanim{
+    0% {color: rgb(25, 133, 76);}
+    33% {color: #044744;}
+    66% {color: #0b6a44;}
+    100% {color: rgb(25, 133, 76);}
+    }
+#debug:hover {
+    rotate: 360deg;
+  }
+
+  #list {
+    text-align: left;
+    font-size: larger;
+    font-family: serif;
+    color: black;
+    animation-name: listanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  #enter {
+    transition: font-size 0.75s ease 0.1s , background-color 0.75s ease 0.1s;
+    background-color: #E1B419;
+  }
+  #enter:hover {
+    font-size: larger;
+    background-color: #f1f49f;
+  }
+::placeholder {
+    color: rgb(186, 132, 33);
+    font-family: serif;
+  }
